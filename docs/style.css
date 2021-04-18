@@ -15,8 +15,35 @@ h1 {
      padding: 1rem 0;
      margin-bottom: 2rem;
  }
-p {
+
+ h3 {
+    font-size: 1rem;
+    color: rgb(226, 63, 117);
+ }
+
+ ul {
+    list-style: none;
+}
+
+ p {
     line-height: 1.5;
+}
+
+body {
+    padding: 0.5rem 1rem;
+    background: linear-gradient(rgb(250, 208, 208), rgb(226, 63, 117));
+}
+
+.cv {
+    display: grid;
+    background: #fff;
+    max-width: 1000px;
+    margin: auto;
+    padding: 3rem;
+}
+
+.duration {
+    padding-bottom: 0.5rem;
 }
 
 section + section {
@@ -37,3 +64,25 @@ a {
     width: 200px;
     height: 200px;
 }
+
+.profile p {
+    color: #888;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.contact ul {
+    margin-top: -2rem;
+}
+
+.contact li {
+    text-align: center;
+    display: flex;
+    padding: 0.1rem;
+}
+
+li + li {
+    margin-top: 1rem;
+}
+
+
